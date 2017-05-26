@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     }
 
     private void goMainScreean() {
-        Intent isesion = new Intent(this,Main2Activity.class);
+        Intent isesion = new Intent(this,Main3Activity.class);
         isesion.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK|Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(isesion);
     }
